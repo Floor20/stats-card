@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -7,12 +9,69 @@
 body {
   background-color: hsl(233, 47%, 7%);
   color: hsl(0, 0%, 100%);
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  height: 100vh;
+}
+
+.full-card {
+  display: flex;
+  max-width: 960px;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.side-card-content {
+  background-color: hsl(244, 38%, 16%);
+  width: 50%;
+  border-radius: 10px 0 0 10px;
+}
+
+.heading {
+  font-weight: 700;
+}
+
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.stats-headings {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.stats-numbers {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+
+.side-card-image {
+  width: 50%;
+  display: flex;
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0 10px 10px 0;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
