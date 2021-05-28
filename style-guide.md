@@ -14,6 +14,8 @@ The designs were created to the following widths:
 - Very dark blue (main background): hsl(233, 47%, 7%)
 - Dark desaturated blue (card background): hsl(244, 38%, 16%)
 - Soft violet (accent): hsl(277, 64%, 61%)
+- rgba(170, 92, 219, 0.7)
+- rgba(112, 98, 183, 0.7)
 
 ### Neutral
 
