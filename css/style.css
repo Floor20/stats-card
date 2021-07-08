@@ -44,6 +44,7 @@ body {
   font-size: 12px;
   line-height: 1.8;
   margin-bottom: 55px;
+  margin-right: 10px;
 }
 
 span {
@@ -119,17 +120,32 @@ ul {
     padding: 6%;
   }
 
+  .stats {
+    padding-right: 12%;
+  }
+
   .description {
     /* margin-bottom: 40px; */
+    margin-right: 40px;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .side-card-content {
-    padding: 5% 6%;
+    /* padding: 5% 6%; */
   }
 
   .description {
-    /* margin-bottom: 40px; */
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 564px) {
+  .full-card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .side-card-image {
   }
 }
