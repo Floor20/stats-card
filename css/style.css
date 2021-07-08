@@ -30,7 +30,7 @@ body {
 .side-card-content {
   background-color: hsl(244, 38%, 16%);
   width: 50%;
-  padding: 60px 110px 60px 60px;
+  padding: 6% 11% 6% 6%;
 }
 
 .heading {
@@ -109,3 +109,27 @@ ul {
 .attribution a {
   color: hsl(228, 45%, 44%);
 } */
+
+/* ------------------------------*/
+/* --------- QUERIES ------------*/
+/* ------------------------------*/
+
+@media only screen and (max-width: 921px) {
+  .side-card-content {
+    padding: 6%;
+  }
+
+  .description {
+    /* margin-bottom: 40px; */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .side-card-content {
+    padding: 5% 6%;
+  }
+
+  .description {
+    /* margin-bottom: 40px; */
+  }
+}
