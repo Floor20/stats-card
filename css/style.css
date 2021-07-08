@@ -125,7 +125,6 @@ ul {
   }
 
   .description {
-    /* margin-bottom: 40px; */
     margin-right: 40px;
   }
 }
@@ -140,12 +139,40 @@ ul {
   }
 }
 
-@media only screen and (max-width: 564px) {
+@media only screen and (max-width: 620px) {
   .full-card {
-    display: flex;
     flex-direction: column-reverse;
+    width: 80%;
+    height: auto;
   }
 
   .side-card-image {
+    height: 300px;
+    width: 100%;
+  }
+
+  .side-card-content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .card-text {
+    margin: 40px 15px;
+  }
+
+  .description {
+    margin: 40px;
+  }
+
+  .stats {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .stats-list {
+    padding: 15px;
   }
 }
