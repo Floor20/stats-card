@@ -23,6 +23,7 @@
     flex-direction: column-reverse;
     width: 80%;
     height: auto;
+    margin: 20px 0;
   }
 
   .side-card-image {
