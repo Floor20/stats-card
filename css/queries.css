@@ -19,6 +19,10 @@
 }
 
 @media only screen and (max-width: 620px) {
+  .container {
+    padding: 20px 0;
+  }
+
   .full-card {
     flex-direction: column-reverse;
     width: 80%;
